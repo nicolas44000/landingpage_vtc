@@ -24,7 +24,7 @@ h1, h2, h3, h4, h5, h6 {
   
   h2 {
     font-size: 30;
-    margin-bottom: 65px;
+    margin-bottom: 45px !important;
   }
   
   h3 {
@@ -48,7 +48,7 @@ h1, h2, h3, h4, h5, h6 {
     Elements
     ================================================== */
   .btn {
-    background-color:rgb(241, 14, 14) !important;
+    background-color:rgb(104, 95, 95) !important;
     font-family: "Roboto", Helvetica, Arial, sans-serif;
     font-weight: bold;
     color:  #fff;
@@ -884,14 +884,14 @@ h1, h2, h3, h4, h5, h6 {
   }
   
   .site-footer .bottom .list-inline {
-    position: relative;
+    position: middle !important;
     top: 5px;
   }
   
   .site-footer .bottom .list-inline a {
     color: #fff;
     font-family: "Roboto", Helvetica, Arial, sans-serif;
-    margin-right: 15px;
+    margin-right: 35px !important;
   }
   
   .site-footer .bottom .list-inline a:hover {
