@@ -23,7 +23,7 @@ h1, h2, h3, h4, h5, h6 {
   }
   
   h2 {
-    font-size: 30px;
+    font-size: 30;
     margin-bottom: 65px;
   }
   
@@ -48,31 +48,31 @@ h1, h2, h3, h4, h5, h6 {
     Elements
     ================================================== */
   .btn {
-    background-color: #199EB8;
+    background-color:rgb(241, 14, 14) !important;
     font-family: "Roboto", Helvetica, Arial, sans-serif;
-    font-weight: 800;
-    color: #fff;
+    font-weight: bold;
+    color:  #fff;
     padding: 15px 45px;
-    border-radius: 50px;
+    border-radius: 100px;
   }
   
   .btn:hover {
-    background-color: #E04F00;
-    color: #fff;
+    background-color: rgb(219, 199, 188);
+    color: rgb(29, 27, 27);
   }
   
   .btn:focus {
-    color: #fff;
+    color: rgb(29, 27, 27);
   }
   
   .btn-ghost {
-    border: 3px solid #fff;
-    background-color: transparent;
+    border: 3px solid rgb(29, 27, 27);
+    background-color: rgb(29, 27, 27);
   }
   
   .btn-ghost:hover {
-    background-color: #fff;
-    color: #199EB8;
+    background-color: rgb(29, 27, 27);
+    color: rgb(29, 27, 27);
   }
   
   section {
@@ -117,7 +117,8 @@ h1, h2, h3, h4, h5, h6 {
   .hero {
     display: table;
     position: relative;
-    background-image: url(../img/cover.jpg);
+    background-image: url(asset-path('img/bmw.jpg'));
+    background-position: center;
     background-size: cover;
     padding: 150px 0;
     color: #fff;
@@ -677,6 +678,9 @@ h1, h2, h3, h4, h5, h6 {
   
   .team .card > a {
     display: block;
+    background-position : center;
+
+
   }
   
   .team .card img {
