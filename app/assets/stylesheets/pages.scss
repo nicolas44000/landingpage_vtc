@@ -89,7 +89,7 @@ h1, h2, h3, h4, h5, h6 {
   }
   
   a:hover {
-    text-decoration: none !important;
+    text-decoration: none;
   }
   
   .scrolltop {
@@ -103,11 +103,12 @@ h1, h2, h3, h4, h5, h6 {
     background: #199EB8;
     color: #fff;
     text-align: center;
+
     font-size: 24px;
   }
   
   .scrolltop:hover, .scrolltop:active, .scrolltop:focus {
-    color: #fff !important;
+    color: #fff;
     opacity: .75;
   }
   
@@ -120,7 +121,7 @@ h1, h2, h3, h4, h5, h6 {
     background-image: url(asset-path('img/bmw.jpg'));
     background-position: center;
     background-size: cover;
-    padding: 150px 0;
+    padding: 0 !important;
     color: #fff;
     width: 100%;
     height: 100vh;
@@ -129,7 +130,7 @@ h1, h2, h3, h4, h5, h6 {
   .hero:after {
     content: '';
     z-index: 0;
-    position: absolute;
+    position: relative;
     background: rgba(0, 0, 0, 0.65);
     width: 100%;
     height: 100%;
@@ -167,13 +168,13 @@ h1, h2, h3, h4, h5, h6 {
   ================================================== */
   #header {
     background: #199EB8;
-    height: 70px;
+    height: 80px !important;
   }
   
   #header #logo {
     margin: 14px 25px 0 0;
   }
-  
+  r
   #header #logo h1 {
     font-size: 36px;
     margin: 0;
@@ -884,7 +885,7 @@ h1, h2, h3, h4, h5, h6 {
   }
   
   .site-footer .bottom .list-inline {
-    position: middle !important;
+    position: relative;
     top: 5px;
   }
   
