@@ -6,7 +6,10 @@
 require("@rails/ujs").start()
 require("turbolinks").start()
 require("@rails/activestorage").start()
-require("channels")
+require("cookies_eu").start()
+
+
+
 
 window.Noty = require("noty")
 
@@ -19,5 +22,5 @@ window.Noty = require("noty")
 // const imagePath = (name) => images(name, true)
 import 'bootstrap'
 import 'packs/custom'
-
+ 
 

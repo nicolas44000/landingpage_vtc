@@ -1,9 +1,84 @@
-
+<!DOCTYPE html>
+<html>
 <%= render "hero" %>
 <%= render "header" %>
+<head>
 
+</head>
 
-<%= render "footer" %>
+<body>
+<p>Cette page contient l’ensemble des informations légales de Cars IDF
+</br>Informations légales
+</br>Le site www.webconcepter.com est édité par :
+    <li>• Webconcepter</li>
+<li>139 Boulevard Albert Einstein, 444300 Nantes</li>
+Nous contacter :
+Email : contact@webconcepter.com
+Téléphone : 0767036848
+      SIRET : 84311083400010
+</p>
+
+</body>
+<footer class="site-footer">
+    <div class="bottom">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-lg-6 col-xs-12 text-lg-left text-center">
+            <p class="copyright-text">
+              © Webconcepter
+            </p>
+            <div class="credits">
+              <!--
+                All the links in the footer should remain intact.
+                You can delete the links only if you purchased the pro version.
+                Licensing information: https://bootstrapmade.com/license/
+                Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=Bell
+              -->
+              <a href="https://www.webconcepter.com/">Webconcepter</a>
+            </div>
+          </div>
+
+          <div class="col-lg-6 col-xs-12 text-lg-right text-center">
+            <ul class="list-inline">
+              <li class="list-inline-item">
+                
+                <%= link_to "Accueil", root_path %>
+              </li>
+
+              <li class="list-inline-item">
+                <a href="#about">A propos</a>
+              </li>
+
+              <li class="list-inline-item">
+                <a href="#features">Nous choisir</a>
+              </li>
+
+              <!-- <li class="list-inline-item">
+                <a href="#portfolio">Portfolio</a>
+              </li> -->
+
+              <li class="list-inline-item">
+                <a href="#team">Votre chauffeur</a>
+              </li>
+
+              <li class="list-inline-item">
+                <a href="#contact">Nous contacter</a>
+              </li>
+              <li class="list-inline-item">
+                
+                <%= link_to "Mentions légales", mention_legal_path %> 
+              </li>
+            </ul>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </footer>
+
+</html>
+
 
 
 

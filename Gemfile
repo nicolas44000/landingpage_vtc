@@ -24,6 +24,7 @@ gem 'jbuilder', '~> 2.5'
 gem 'mail_form'
 gem 'simple_form'
 gem 'dotenv-rails', '~> 2.2'
+gem 'cookies_eu'
 
 # Use Active Storage variant
 # gem 'image_processing', '~> 1.2'
