@@ -52,7 +52,7 @@
               </li>
               <li class="list-inline-item">
                 
-                <%= link_to "Mentions légales", mention_legal_path %> 
+              <%= link_to "Mention Légales", "#modal", "data-toggle" => "modal" %>
               </li>
             </ul>
           </div>
@@ -60,4 +60,5 @@
         </div>
       </div>
     </div>
+    <%= render "modal"%>
   </footer>

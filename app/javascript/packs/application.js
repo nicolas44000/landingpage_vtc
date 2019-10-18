@@ -3,10 +3,11 @@
 // a relevant structure within app/javascript and only use these pack files to reference
 // that code so it'll be compiled.
 
+
+
 require("@rails/ujs").start()
 require("turbolinks").start()
 require("@rails/activestorage").start()
-
 
 
 
@@ -24,3 +25,24 @@ import 'bootstrap'
 import 'packs/custom'
  
 
+<script>
+  window.addEventListener("load", function(){
+  window.cookieconsent.initialise({
+  "palette": {
+  "popup": {
+  "background": "#eaf7f7",
+  "text": "#5c7291"
+  },
+  "button": {
+  "background": "#56cbdb",
+  "text": "#ffffff"
+ }
+ },
+  "content": {
+  "message": "This website uses cookies to ensure you get the best experience on our website.",
+  "dismiss": "Got it!",
+  "link": "Learn more",
+  "href": "http://cookies.insites.com/about-cookies"
+  }
+  })});
+ </script>

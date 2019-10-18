@@ -25,6 +25,7 @@ gem 'mail_form'
 gem 'simple_form'
 gem 'dotenv-rails', '~> 2.2'
 gem 'cookies_eu'
+gem 'cookieconsent'
 
 # Use Active Storage variant
 # gem 'image_processing', '~> 1.2'
