@@ -1,5 +1,5 @@
+$( document ).on('turbolinks:load', function() {
 
-$(document).ready(function() {
 
     // Smooth scrolling
     $(function() {
@@ -81,8 +81,10 @@ $(document).ready(function() {
     });
   
     // Tooltip & popovers
+   
     $('[data-toggle="tooltip"]').tooltip();
     $('[data-toggle="popover"]').popover();
+
   
     // Background image via data tag
     $('[data-block-bg-img]').each(function() {
@@ -116,4 +118,4 @@ $(document).ready(function() {
       return false;
     });
   
-  });
+  })

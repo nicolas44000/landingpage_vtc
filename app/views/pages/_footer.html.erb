@@ -11,7 +11,7 @@
 
           <div class="col-lg-6 col-xs-12 text-lg-left text-center">
             <p class="copyright-text">
-              © Webconcepter
+            2019  © Webconcepter
             </p>
             <div class="credits">
               <!--
@@ -50,15 +50,14 @@
               <li class="list-inline-item">
                 <a href="#contact">Nous contacter</a>
               </li>
-              <li class="list-inline-item">
-                
-              <%= link_to "Mention Légales", "#modal", "data-toggle" => "modal" %>
+              <li class="list-inline-item">   
+              <%= link_to "Mentions Légales", "#modal", "data-toggle" => "modal" %>
               </li>
             </ul>
           </div>
-
+          <%= render partial: "modal"%>
         </div>
       </div>
     </div>
-    <%= render "modal"%>
   </footer>
+  

@@ -10,8 +10,6 @@ require("turbolinks").start()
 require("@rails/activestorage").start()
 
 
-
-
 window.Noty = require("noty")
 
 
@@ -21,28 +19,11 @@ window.Noty = require("noty")
 //
 // const images = require.context('../images', true)
 // const imagePath = (name) => images(name, true)
-import 'bootstrap'
+import 'bootstrap/dist/js/bootstrap'
+import 'packs/plugins/jquery/jquery.min'
 import 'packs/custom'
+import 'packs/plugins/lockfixed/lockfixed.min'
+import 'packs/plugins/superfish/superfish'
+import 'packs/plugins/stickyjs/sticky'
+import 'packs/plugins/counterup/counterup.min'
  
-
-<script>
-  window.addEventListener("load", function(){
-  window.cookieconsent.initialise({
-  "palette": {
-  "popup": {
-  "background": "#eaf7f7",
-  "text": "#5c7291"
-  },
-  "button": {
-  "background": "#56cbdb",
-  "text": "#ffffff"
- }
- },
-  "content": {
-  "message": "This website uses cookies to ensure you get the best experience on our website.",
-  "dismiss": "Got it!",
-  "link": "Learn more",
-  "href": "http://cookies.insites.com/about-cookies"
-  }
-  })});
- </script>
